@@ -1,0 +1,110 @@
+html{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-attachment: fixed;
+    background-color:rgba(231, 238, 221, 0.201);
+    
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5e1e1;
+    top : 0;
+    
+    position: sticky;
+    z-index: 2;
+    
+}
+
+li {
+    float:left;
+    background-position: center;
+  }
+.navigation{
+    display: inline-block;
+    color: rgb(83, 3, 3);
+    text-align: center;
+    padding: 20px 120px; 
+    text-decoration:wavy;
+
+  }
+.navigation:hover {
+    background-color: #2dd6ce;
+  }
+
+.smoke{
+    text-align: center;
+}
+.middleLogo{
+    padding:5px;
+    
+    /* list-style-image: none; */
+}
+div.container{
+    text-align: center;
+}
+#work{
+  text-align: center;
+  margin: 0% 20% 0% 25%;
+
+    padding-left: 5%;
+}
+.row{
+    padding:0% 10% 0% 10%;
+    /* margin: 2px 2px 2px 2px; */
+    
+}
+.box{
+    padding:0% 2% 0% 0%;
+    margin: 2px 2px 2px 2px;
+    display: inline-table;
+    
+    color: #000000;
+    box-shadow: 0px 3px 3px 0px #161616;
+    transition:160ms;
+    width: 2%;    
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#Pictures{
+    background-image: url("20210715_154735.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    color: rgb(255, 255, 255);
+    filter: opacity(1);
+    text-shadow: -2px 2px 0 #000000, 2px 2px 0 #000000, 
+    2px -2px 0 #000000, 
+   -2px -2px 0 #000000;
+    transition:500ms ease-in;
+    
+
+}
+/* #pic{
+    margin: 0% 30% 5% 30%;
+    padding: 0px 50px 0px 50px;
+} */
+#pic:hover{
+    filter:saturate(0);
+    transition: 800ms ease-in;
+
+
+}
+footer{
+    text-align: center;
+    background-color: rgba(205, 218, 217, 0.76);
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+
+}
+
+
